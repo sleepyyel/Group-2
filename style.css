@@ -77,25 +77,6 @@ font-style: normal;
     font-weight: 400;
     font-style: normal;
 }
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}   
-.hero-btn:hover{
-    border:1px solid #c3d9ff;
-    background: #ffffff;
-    transition: 1s
-}
 nav .fa{
     display: none;
 }
@@ -199,6 +180,7 @@ h3{
     overflow: hidden;
 }
 .campus-col img{
+    min-height: 100vh;
     width: 100%;
     display: block;
 }
@@ -246,8 +228,8 @@ h3{
 }
 .facilities-col img{
     width: 1105px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
 .facilities-col p{
     margin-top: 16px;
@@ -262,3 +244,27 @@ h3{
     background-size: cover;
     position: relative;
 }
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #fffdfd;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}   
+.hero-btn:hover{
+    border:1px solid #c3d9ff;
+    background: #ffffff;
+    transition: 1s;
+}    
