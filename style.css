@@ -242,7 +242,7 @@ h3{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/pup.jpg");
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: absolute ;
 }
 .hero-btn{
     display: inline-block;
